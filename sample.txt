@@ -1,0 +1,66 @@
+#include "stdafx.h"
+#include "cvcam.h"
+#include <cv.h>
+#include <highgui.h>
+#include <string>
+using namespace std;
+
+void callback(IplImage* image);
+
+int main(int argc, char* argv[])
+{
+	printf("CamTest started ..\n");
+	int cameras = cvcamGetCamerasCount();
+	printf("Cameras detected: %d \n",cameras);
+
+	int * out;
+	int nselected = cvcamSelectCamera(&out);
+	int cameraSelected = -1;
+
+	if(nselected>0)	cameraSelected = out[0];
+
+	
+
+	if (cameraSelected > -1)
+	{
+		printf("The selected camera is camera number %d \n", cameraSelected);
+		printf("Starting Camera %d \n",cameraSelected );
+	// starting camera 1
+
+	int h = 240;
+	int w = 320;
+	int t=0;
+	cvcamSetProperty(cameraSelected,CVCAM_RNDWIDTH , &w);
+	cvcamSetProperty(cameraSelected,CVCAM_RNDHEIGHT , &h);
+	cvcamSetProperty(cameraSelected,CVCAM_PROP_ENABLE, &t);
+	cvcamSetProperty(cameraSelected,CVCAM_PROP_RENDER, &t);
+	
+	cvcamInit();
+	cvcamStart();
+	printf("It's working !!! \n");
+
+	IplImage* image;
+
+	printf("sicti - 2");
+
+	Sleep(1000);
+
+	cvcamGetProperty(0,"raw_image",&image);
+	//Do what you want with the image
+
+	cvcamWindow mywin = 0;
+	
+             cvcamSetProperty(0, CVCAM_PROP_WINDOW, &mywin);
+
+
+	cvcamResume();
+	
+	//cvcamStop();
+	//cvcamExit();
+//	printf("Camera stopped. \n");
+
+	}
+	else printf("No Camera selected - terminating! \n");
+
+  return 0;
+}

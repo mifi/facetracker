@@ -1,0 +1,4 @@
+http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html#SECTION00020000000000000000
+http://opencv.willowgarage.com/wiki/faq#Howtouse2cameras.28multiplecameras.29withcvCamlibrary
+
+http://www.seas.upenn.edu/~bensapp/opencvdocs/ref/opencvref_cv.htm
