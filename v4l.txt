@@ -1,0 +1,3 @@
+http://www.inf.ed.ac.uk/teaching/courses/sdp/creative/v4lintro.html
+http://www.linuxtv.org/downloads/v4l-dvb-apis/apd.html
+http://www.stolk.org/sonic-snap/

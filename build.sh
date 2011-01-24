@@ -1,1 +1,1 @@
-gcc -O2 graphics.c main.c gl_shapes.c -o main -lm -lcv -lhighgui -lcvaux -lglut -lGLU $(pkg-config --libs --cflags sdl)
+gcc -O2 main.c opt_flow.c -o main -lm -lcv -lGLU $(pkg-config --libs --cflags sdl opencv)

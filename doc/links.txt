@@ -1,0 +1,5 @@
+http://www.google.com/search?hl=en&source=hp&q=off-center+projection&btnG=Google+Search&aq=f&oq=&aqi=g4g-m3#sclient=psy&hl=en&source=hp&q=off-center+projection+opengl&aq=f&aqi=&aql=&oq=&gs_rfai=&pbx=1&fp=f14df6df862cc855
+http://www.opengl.org/discussion_boards/ubbthreads.php?ubb=showflat&Number=68518&page=1
+http://local.wasp.uwa.edu.au/~pbourke/miscellaneous/stereographics/stereorender/
+http://www.gamedev.net/reference/programming/features/vcp/page2.asp
+http://www.gamedev.net/reference/articles/article2023.asp

@@ -2,3 +2,16 @@ http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/opencv-intro.html#SECT
 http://opencv.willowgarage.com/wiki/faq#Howtouse2cameras.28multiplecameras.29withcvCamlibrary
 
 http://www.seas.upenn.edu/~bensapp/opencvdocs/ref/opencvref_cv.htm
+
+
+smoothing algorithms
+http://en.wikipedia.org/wiki/Spline_interpolation
+http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
+http://en.wikipedia.org/wiki/Linear_least_squares
+http://en.wikipedia.org/wiki/Kalman_filter
+
+
+
+Camshift
+http://www.cognotics.com/opencv/servo_2007_series/part_3/sidebar.html
+http://www.robin-hewitt.com/research/track/camshift.html
